@@ -1,8 +1,11 @@
 import React from 'react'
+import Root from './components/Root'
 
 const App = () => {
   return (
-    <div className='text-red-500 text-center'>App</div>
+    <div>
+      <Root/>
+    </div>
   )
 }
 
